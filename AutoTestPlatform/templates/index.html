@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+
+    <title>自动化平台</title>
+    {% load staticfiles %}
+    <link href="{% static 'libs/style/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'libs/style/ui-grid.min.css' %}" rel="stylesheet">
+    <link href="{% static 'libs/style/bootstrap-datetimepicker.min.css' %}" rel="stylesheet">
+    <link href="{% static 'app/style/project.css' %}" rel="stylesheet">
+    <link href="{% static 'app/style/carousel.css' %}" rel="stylesheet">
+    <link href="{% static 'app/style/index.css' %}" rel="stylesheet">
+
+</head>
+<body>
+
+    <div id="app">
+        <router-view></router-view>
+    </div>
+</body>
+{% load staticfiles %}
+<script src="{% static 'libs/script/jquery-3.1.0.min.js' %}"></script>
+<script src="{% static 'libs/script/bootstrap.min.js' %}"></script>
+<script src="{% static 'libs/script/vue.min.js' %}"></script>
+<script src="{% static 'libs/script/vue-resource.min.js' %}"></script>
+<script src="{% static 'libs/script/vue-router.min.js' %}"></script>
+<script src="{% static 'libs/script/bootstrap-datetimepicker.js' %}"></script>
+<script src="{% static 'libs/script/bootstrap-datetimepicker.fr.js' %}"></script>
+<script src="{% static 'libs/script/Chart.min.js' %}"></script>
+<script src="{% static 'libs/script/vue-nav.js' %}"></script>
+<script src="{% static 'vue/components/index.js' %}"></script>
+<script src="{% static 'vue/components/project.js' %}"></script>
+<script src="{% static 'vue/components/interface.js' %}"></script>
+<script src="{% static 'vue/components/homepage.js' %}"></script>
+<script src="{% static 'vue/components/globalVar.js' %}"></script>
+<script src="{% static 'vue/components/method.js' %}"></script>
+<script src="{% static 'vue/components/validation.js' %}"></script>
+<script src="{% static 'vue/components/dependency.js' %}"></script>
+<script src="{% static 'vue/components/apiCase.js' %}"></script>
+<script src="{% static 'vue/components/plan.js' %}"></script>
+<script src="{% static 'vue/components/report.js' %}"></script>
+<script src="{% static 'vue/components/record.js' %}"></script>
+<script src="{% static 'vue/router.js' %}"></script>
+</html>
